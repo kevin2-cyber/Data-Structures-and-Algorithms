@@ -1,3 +1,2 @@
 # Data-Structures-and-Algorithms
-A guide to effective and efficient programming using 
-algorithms. 
+A guide to effective and efficient programming. 
