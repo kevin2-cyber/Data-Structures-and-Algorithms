@@ -2,8 +2,8 @@ package com.kimikevin
 
 import java.util.LinkedList
 
-fun bfs(graph: Array<MutableList<Int>>, start: Int) {
-    val visited = BooleanArray(graph.size)
+fun bfs(graph: Array<MutableList<Int>>?, start: Int) {
+    val visited = BooleanArray(graph!!.size)
     val queue = LinkedList<Int>()
     visited[start] = true
     queue.offer(start)
@@ -22,7 +22,7 @@ fun bfs(graph: Array<MutableList<Int>>, start: Int) {
 fun main() {
     val squares = MutableList(5) { (it + 1) * (it + 1) }
     val square = MutableList(4) {it + 2}
-    bfs((square, squares), 5)
+    bfs(null,5)
 }
 
 
