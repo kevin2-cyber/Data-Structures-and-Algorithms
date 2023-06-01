@@ -1,4 +1,4 @@
-package com.eduful9877;
+package com.eduful9877.stack;
 
 import java.util.ArrayList;
 

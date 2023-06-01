@@ -1,11 +1,11 @@
-package com.eduful9877;
+package com.eduful9877.stack;
 
 /**
  * Author = Kelvin Eduful
  * StudentId = 10889877
  */
 
-public class Main {
+public class StackImpl {
     public static void main(String[] args) {
         Stack<Integer> test = new Stack<> ();
         test.push ( 2 );
