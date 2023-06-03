@@ -2,7 +2,7 @@ package com.eduful9877.queue;
 
 import java.util.Scanner;
 
-public class QueueImpl {
+public class Solution {
     public static void main(String[] args) {
         int i = 4;
         double d = 4.0;
@@ -16,9 +16,9 @@ public class QueueImpl {
 
         /* Read and save an integer, double, and String to your variables.*/
         // Note: If you have trouble reading the entire String, please go back and review the Tutorial closely.
+        inputString = scan.nextLine();
         inputInteger = scan.nextInt();
         inputDouble = scan.nextDouble();
-        inputString = scan.nextLine();
 
         /* Print the sum of both integer variables on a new line. */
         System.out.println(i + inputInteger);
