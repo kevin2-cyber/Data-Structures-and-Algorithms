@@ -6,9 +6,9 @@ public class Main {
     public static void main(String[] args) {
         String sit = "HackerRank ";
         String seen;
-        Scanner scanner = new Scanner ( System.in );
+        Scanner scanner = new Scanner(System.in);
         seen = scanner.nextLine ();
 
-        System.out.println (sit + seen );
+        System.out.println(sit + seen);
     }
 }

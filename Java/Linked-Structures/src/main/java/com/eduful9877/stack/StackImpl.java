@@ -27,5 +27,7 @@ public class StackImpl {
         for (int i = 0; i < test.list.size ( ); i++) {
             System.out.println ( test.list.get(i) );
         }
+
+        System.out.println (test.isEmpty () );
     }
 }

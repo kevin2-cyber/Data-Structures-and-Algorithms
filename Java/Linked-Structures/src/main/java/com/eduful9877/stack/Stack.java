@@ -18,4 +18,8 @@ public class Stack<T> {
     public void pop() {
         list.remove(list.size () - 1 );
     }
+
+    public boolean isEmpty() {
+        return list.size () == 0;
+    }
 }
