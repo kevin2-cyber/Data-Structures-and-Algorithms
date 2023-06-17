@@ -11,7 +11,7 @@ public class Result {
         tax_percent = (int) (0.08 * meal_cost);
 
         meal_cost = tip_percent + tax_percent + meal_cost;
-        System.out.println (meal_cost );
+        System.out.println(meal_cost);
     }
 
     public static void main(String[] args) throws IOException {
@@ -25,6 +25,6 @@ public class Result {
 
         Result.solve(meal_cost, tip_percent, tax_percent);
 
-        bufferedReader.close ();
+        bufferedReader.close();
     }
 }

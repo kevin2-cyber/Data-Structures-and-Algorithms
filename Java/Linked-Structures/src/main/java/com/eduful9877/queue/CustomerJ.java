@@ -35,4 +35,16 @@ public class CustomerJ {
     public void setSecondName(String secondName) {
         this.secondName = secondName;
     }
+
+    public String getFullName() {
+        return getFirstName() + getSecondName();
+    }
+
+    public void setFullName(String firstName, String secondName) {
+        this.firstName = firstName;
+        this.secondName = secondName;
+        String fullName = getFullName();
+        fullName = firstName + secondName;
+    }
+
 }

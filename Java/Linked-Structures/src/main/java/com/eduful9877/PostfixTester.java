@@ -18,7 +18,7 @@ public class PostfixTester {
         Scanner in = new Scanner(System.in);
 
         do {
-            PostfixEvaluator evaluator = new PostfixEvaluator ();
+            PostfixEvaluator evaluator = new PostfixEvaluator();
             System.out.println ("Enter a valid post-fix expression one token" +
                     "at a time with a space between each token (e.g. 5 4 + 3 2 1 - + *)");
 
