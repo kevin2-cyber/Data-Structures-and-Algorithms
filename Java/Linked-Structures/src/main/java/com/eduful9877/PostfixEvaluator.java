@@ -28,7 +28,7 @@ public class PostfixEvaluator {
      * Evaluates the specified postfix expression. If an operand is
      * encountered, it is pushed onto the stack. If an operator is
      * encountered, two operands are popped, the operation is
-     * evaluated, and the result is pushed onto the stack.
+     * evaluated, and the result is pushed to the stack.
      * @param expr string representation of a postfix expression
      * @return value of the given expression
      */
