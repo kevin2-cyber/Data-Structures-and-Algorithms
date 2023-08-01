@@ -1,7 +1,10 @@
+import java.util.Scanner;
+
 public class BinarySearch {
     public static void main(String[] args) {
         int[] arr = {1,3,5,7,9,11,13,15,17,19,24,25};
-        int target = 19;
+        Scanner scanner = new Scanner(System.in);
+        int target = scanner.nextInt();
 
         int index = binarySearch(arr,target);
         if (index != -1)
