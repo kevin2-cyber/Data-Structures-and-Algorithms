@@ -1,10 +1,10 @@
 public class Recursion {
     public static void main(String[] args) {
-        Recursion num = new Recursion();
-        System.out.println(num.sum(9));
+        int num = sum(9);
+        System.out.println(num);
     }
 
-    public int sum(int num) {
+    public static int sum(int num) {
         int result;
         if (num == 1)
             result = 1;
