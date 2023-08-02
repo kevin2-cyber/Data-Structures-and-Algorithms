@@ -31,7 +31,7 @@ public class HashMapMain {
         List<String> U = new ArrayList<>() {
             {
                 add ("United States");
-                add("UnIted Kingdom");
+                add("United Kingdom");
                 add ("Uruguay");
             }
         };
