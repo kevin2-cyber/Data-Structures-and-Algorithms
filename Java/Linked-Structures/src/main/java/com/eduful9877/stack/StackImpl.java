@@ -11,16 +11,16 @@ public class StackImpl {
         test.push(7);
         test.push(8);
 
-        for (int i = 0; i < test.getList().size(); i++) {
-            System.out.println(test.getList().get(i));
+        for (int i = 0; i < test.size(); i++) {
+            System.out.println(test.get(i));
         }
 
         test.pop();
         test.pop();
         System.out.println("Remove some");
 
-        for (int i = 0; i < test.getList().size(); i++) {
-            System.out.println(test.getList().get(i));
+        for (int i = 0; i < test.size(); i++) {
+            System.out.println(test.get(i));
         }
 
         System.out.println(test.isEmpty());
