@@ -16,7 +16,7 @@ public class StackImpl {
         test.push(7);
         test.push(8);
 
-        for (int i = 0; i < test.list.size(); i++) {
+        for (int i = 0; i < test.size(); i++) {
             System.out.println(test.list.get(i));
         }
 

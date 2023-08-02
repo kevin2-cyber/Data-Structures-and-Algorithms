@@ -5,7 +5,7 @@ import java.util.ArrayList;
 // push and pop, isEmpty using LinkedList
 public class Stack<T> {
 
-    public ArrayList<T> list;
+    private ArrayList<T> list;
 
     public Stack() {
         list = new ArrayList<>();
@@ -20,6 +20,6 @@ public class Stack<T> {
     }
 
     public boolean isEmpty() {
-        return list.size() == 0;
+        return list.isEmpty();
     }
 }
