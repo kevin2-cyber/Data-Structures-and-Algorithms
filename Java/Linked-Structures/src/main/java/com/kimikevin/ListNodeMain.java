@@ -1,10 +1,34 @@
 package com.kimikevin;
 
 public class ListNodeMain {
+
+    public static class ListNode {
+        String player;
+        ListNode next;
+
+        public ListNode(String player, ListNode next) {
+            this.player = player;
+            this.next = next;
+        }
+
+        public void setNext(ListNode node) {
+            this.next = node;
+        }
+
+        public String toString() {
+            String result = "";
+            ListNode temp = this;
+            while (temp != null) {
+                result += " [" + temp.player + "]";
+                temp = temp.next;
+            }
+            return  result;
+        }
+    }
     public static void main(String[] args) {
         ListNode l4 = new ListNode("Messi", null);
         ListNode l3 = new ListNode("Steph Curry", l4);
-        ListNode l2 = new ListNode ("Renaldo", l3);
+        ListNode l2 = new ListNode("Renaldo", l3);
         ListNode l1 = new ListNode("Michael Jordan", l2);
 
         ListNode temp = l1;
@@ -27,7 +51,7 @@ public class ListNodeMain {
         temp = l1;
 
         // insert at index after M Jordan
-        while (temp != null) {
+        while (temp == null) {
             if (temp.player.equals("Michael Jordan")) {
                 l5.setNext(temp.next);
                 temp.setNext(l5);
@@ -36,6 +60,6 @@ public class ListNodeMain {
 
         System.out.println();
         System.out.println("Insert Garnett after Michael Jordan");
-        System.out.println(l1.toString());
+        System.out.println(l1);
     }
 }
