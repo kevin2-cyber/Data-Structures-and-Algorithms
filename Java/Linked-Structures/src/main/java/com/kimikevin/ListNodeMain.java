@@ -51,7 +51,7 @@ public class ListNodeMain {
         temp = l1;
 
         // insert at index after M Jordan
-        while (temp == null) {
+        while (temp != null) {
             if (temp.player.equals("Michael Jordan")) {
                 l5.setNext(temp.next);
                 temp.setNext(l5);
