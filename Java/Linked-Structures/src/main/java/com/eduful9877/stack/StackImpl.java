@@ -1,10 +1,5 @@
 package com.eduful9877.stack;
 
-/**
- * Author = Kelvin Eduful
- * StudentId = 10889877
- */
-
 public class StackImpl {
     public static void main(String[] args) {
         Stack<Integer> test = new Stack<>();
@@ -16,16 +11,16 @@ public class StackImpl {
         test.push(7);
         test.push(8);
 
-        for (int i = 0; i < test.size(); i++) {
-            System.out.println(test.list.get(i));
+        for (int i = 0; i < test.getList().size(); i++) {
+            System.out.println(test.getList().get(i));
         }
 
         test.pop();
         test.pop();
         System.out.println("Remove some");
 
-        for (int i = 0; i < test.list.size(); i++) {
-            System.out.println(test.list.get(i));
+        for (int i = 0; i < test.getList().size(); i++) {
+            System.out.println(test.getList().get(i));
         }
 
         System.out.println(test.isEmpty());

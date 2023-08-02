@@ -11,6 +11,10 @@ public class Stack<T> {
         list = new ArrayList<>();
     }
 
+    public ArrayList<T> getList() {
+        return list;
+    }
+
     public void push(T element) {
         list.add(list.size(), element);
     }
