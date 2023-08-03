@@ -13,7 +13,7 @@ public class StackMain {
         System.out.println("peek: " + stack.peek());
         System.out.println("pop: " + stack.pop());
 
-        stack.push("Toyota Camri");
+        stack.push("Toyota Camry");
         System.out.println("peek: " + stack.peek());
     }
 }
