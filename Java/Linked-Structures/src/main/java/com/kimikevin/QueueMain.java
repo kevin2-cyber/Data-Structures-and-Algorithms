@@ -31,5 +31,6 @@ public class QueueMain {
 
         // print the updated queue
         System.out.println("Queue after peek: " + queue);
+
     }
 }
